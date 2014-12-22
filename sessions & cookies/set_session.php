@@ -5,4 +5,4 @@ $_SESSION['name']='Matus';
 //header("Location:http://localhost/phpmyacademy/sessions%20&%20cookies/view.php");
 //ob_end_flush();
 ?>
-<a href="http://localhost/phpmyacademy/sessions%20&%20cookies/view.php">presmerovanie na view</a>
+<a href="http://localhost/phpmyacademy/sessions%20&%20cookies/view_session.php">presmerovanie na view</a>
