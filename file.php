@@ -11,7 +11,7 @@ if(isset($_FILES['file']['name']))
 {
 $nazov=$_FILES['file']['name'];
 $velkost=$_FILES['file']['size'];
-echo $type=$_FILES['file']['type'];	//vrati image/jpeg=>pri obrazkoch ; text/plain pri textovom subole atd...
+$type=$_FILES['file']['type'];	//vrati image/jpeg=>pri obrazkoch ; text/plain pri textovom subole atd... (skus vypisat a uvidis-echo)
 $doc_miesto=$_FILES['file']['tmp_name'];
 
 $real_location='uploads/';
