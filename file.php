@@ -38,6 +38,7 @@ $typ_suboru=strtolower(substr($nazov,strpos($nazov,'.')+1));
 	else
 	echo 'prosim vyber subor ';
 }
+echo md5('password1');
 ?>
 
 <form action="<?php echo $_SERVER['SCRIPT_NAME']?>" method="POST" enctype="multipart/form-data">
