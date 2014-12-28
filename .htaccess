@@ -1,3 +1,6 @@
+#na to aby na windowse bol povoleny htaccess treba ist do apache congig a povolit=>
+#LoadModule rewrite_module modules/mod_rewrite.so
+#vid.: http://www.sitepoint.com/using-htaccess-prevent-web-scraping/
 #zobrazi vsetky priecinky keby ze je index - tak ich #nezobrazi
 Options +Indexes
 #fancy view	
